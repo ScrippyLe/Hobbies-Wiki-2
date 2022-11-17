@@ -1,27 +1,20 @@
-
-
-#foodListPix{
+#foodListPix {
   display: flex;
   height: 150px;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+#videoGamesPix {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
-body {
+header {
   text-align: center;
 }
-/* #foodList {
-  display: flex;
-  padding: 50px;
-}
 
-#foodPix {
-  display: flex;
-  height: 250px;
-  padding: 50px;
-  padding-left: 60px;
+nav {
+  text-align: center;
 }
-
-/* #foodListPix {
-  display: flex;
-} */ */
