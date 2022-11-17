@@ -13,8 +13,15 @@
 
 header {
   text-align: center;
+  border: solid;
+  border-radius: 1em;
+  background-color: #ffbfe2;
 }
 
 nav {
   text-align: center;
+}
+
+body {
+  background-image: url(https://us.123rf.com/450wm/queertrade/queertrade1904/queertrade190400204/121998906-plaid-pattern-in-pastel-pink-blue-and-white-.jpg?ver=6;);
 }
