@@ -1,0 +1,27 @@
+
+
+#foodListPix{
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+body {
+  text-align: center;
+}
+/* #foodList {
+  display: flex;
+  padding: 50px;
+}
+
+#foodPix {
+  display: flex;
+  height: 250px;
+  padding: 50px;
+  padding-left: 60px;
+}
+
+/* #foodListPix {
+  display: flex;
+} */ */
