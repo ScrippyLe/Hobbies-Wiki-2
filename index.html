@@ -11,9 +11,13 @@
     <header>
       <h1>Van Le: Things I Like</h1>
     </header>
-    <nav></nav>
+    <nav aria-label="navBar" id="navBar">
+      <a href="#food">Food</a>
+      <a href="#videoGames">Video Games</a>
+      <a href="#netflix">Netflix</a>
+    </nav>
     <main>
-      <section>
+      <section id="food">
         <h2>Food</h2>
         <p>
           Growing up in Vietnam, food was everywhere. Street food culture was
@@ -39,7 +43,7 @@
           <li>Any Organs/Innards (Not from humans of course lol)</li>
         </ul>
       </section>
-      <section>
+      <section id="videoGames">
         <h2>Video Games</h2>
         <p>
           I fell in love with video games in elementary school when they would
@@ -52,7 +56,7 @@
         </p>
         <p>The game that I'm currently obsessed with now is Overwatch lol.</p>
       </section>
-      <section>
+      <section id="netflix">
         <h2>Netflix</h2>
         <p>
           I'm ashamed to say that Netflix takes up a huge part of my life lol. I
@@ -90,17 +94,27 @@
         <form>
           <h2>Comment Form</h2>
           <label for="name">Name:</label>
-          <input type="text" id="mame" name="name" />
+          <input
+            type="text"
+            id="mame"
+            name="name"
+            placeholder="Enter first and last name"
+          />
+          <br />
           <br />
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" />
-        </form>
-        <br />
-        <form>
-          <textarea name="comments" id="comments">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+          />
+          <br />
+          <br />
+          <textarea aria-label="commentSection" name="comments" id="comments">
 Please give me your feedback here!
-</textarea
-          >
+          </textarea>
+          <br />
           <br />
           <input type="submit" value="Submit" />
         </form>
