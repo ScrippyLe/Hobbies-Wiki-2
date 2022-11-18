@@ -3,12 +3,27 @@
   height: 150px;
   justify-content: center;
   justify-content: space-evenly;
+  font-size: larger;
 }
 #videoGamesPix {
   display: flex;
   height: 150px;
   justify-content: center;
   justify-content: space-evenly;
+}
+
+#food {
+  border: solid;
+  border-radius: 1em;
+}
+
+#clickOnNames {
+  text-align: center;
+}
+
+#food p {
+  background-color: #91c1e5;
+  font-size: x-large;
 }
 
 header {
@@ -20,8 +35,15 @@ header {
 
 nav {
   text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 body {
   background-image: url(https://us.123rf.com/450wm/queertrade/queertrade1904/queertrade190400204/121998906-plaid-pattern-in-pastel-pink-blue-and-white-.jpg?ver=6;);
+}
+
+h2 {
+  background-color: #ffbfe2;
 }
