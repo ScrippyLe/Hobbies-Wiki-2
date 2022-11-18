@@ -12,7 +12,9 @@
   justify-content: space-evenly;
 }
 
-#food {
+#food,
+#videoGames,
+#netflix {
   border: solid;
   border-radius: 1em;
 }
@@ -21,7 +23,22 @@
   text-align: center;
 }
 
-#food p {
+#netflixList {
+  display: flex;
+}
+#netflixShows,
+#netflixMovies {
+  flex-direction: row;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* #netflixPic {
+  display: flex;
+} */
+
+p {
   background-color: #91c1e5;
   font-size: x-large;
 }
@@ -44,6 +61,13 @@ body {
   background-image: url(https://us.123rf.com/450wm/queertrade/queertrade1904/queertrade190400204/121998906-plaid-pattern-in-pastel-pink-blue-and-white-.jpg?ver=6;);
 }
 
-h2 {
+h2,
+h3 {
   background-color: #ffbfe2;
+}
+
+h4 {
+}
+ol {
+  font-size: large;
 }
