@@ -2,8 +2,10 @@
   display: flex;
   height: 150px;
   justify-content: center;
-  justify-content: space-evenly;
   font-size: larger;
+}
+#foodList {
+  padding-right: 150px;
 }
 #videoGamesPix {
   display: flex;
